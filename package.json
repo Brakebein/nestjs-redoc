@@ -2,7 +2,7 @@
   "name": "@brakebein/nestjs-redoc",
   "version": "2.3.0",
   "description": "NestJS ReDoc frontend",
-  "repository": "https://github.com/mxarc/nestjs-redoc",
+  "repository": "https://github.com/Brakebein/nestjs-redoc",
   "author": "Alfonso Reyes",
   "main": "dist/index.js",
   "private": false,
@@ -68,5 +68,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "files": ["dist", "views"]
 }

@@ -8,23 +8,23 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs welcome" />
   </a>
   <a href="https://github.com/nestjs/nest">
-    <img src="https://raw.githubusercontent.com/nestjsx/crud/master/img/nest-powered.svg?sanitize=true" alt="Nest Powered" />
+    <img src="https://raw.githubusercontent.com/nestjsx/crud/e9f8424c8d5bbec3b7d6f827abecaa07ced86091/img/nest-powered.svg?sanitize=true" alt="Nest Powered" />
   </a>
-   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
 </div>
 
 <div align="center">
 
-[⚡ Features](#-Features) |
-[🗿 Installation](#-Installation) |
-[❓ How to use](#-How-to-use) |
-[👨‍💻👩‍💻 Contributors](#--Contributors) |
-[📜 Changelog](#-Changelog) |
-[📋 ToDo](#-ToDo)
+[⚡ Features](#-features) |
+[🗿 Installation](#-installation) |
+[❓ How to use](#-how-to-use) |
+[👨‍💻👩‍💻 Contributors](#-contributors) |
+[📜 Changelog](#-changelog) |
+[📋 ToDo](#-todo)
 
 </div>
 
-<img src="./redoc.png"/>
+![](redoc.png)
 
 <p align="center">
 
@@ -153,13 +153,14 @@ Bellow are a list of changes, some might go undocumented
 - 1.1.0 - Minor changes, nothing too important
 - 1.2.0 - Added unit tests, refactored code
 - 1.2.1 - Updated to work with the latest version of nest swagger module
-- 1.2.2 - Fixed issue with URL on windows
+- 1.2.2 - Fixed issue with URL on Windows
 - 1.3.0 - Added favicon option (by @joemaidman)
 - 2.0.0 - Added authentication option, fixed issues with CSP and nestjs version compatibility issues
 - 2.1.0 - Added x-tagGroups extension property
 - 2.1.1 - Fixed CSP issue on Safari browser
 - 2.2.0 - Added version property, this way you can pin redoc to a specific version
 - 2.2.2 - Updated to support Nest 8
+- 2.3.0 - Updated to support Nest 9, removed padding from logo image
 
 ## 📋 ToDo
 
