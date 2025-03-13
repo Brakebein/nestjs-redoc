@@ -1,9 +1,14 @@
 {
   "name": "@brakebein/nestjs-redoc",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "NestJS ReDoc frontend",
   "repository": "https://github.com/Brakebein/nestjs-redoc",
   "author": "Alfonso Reyes",
+  "contributors": [
+    {
+      "name": "Brakebein"
+    }
+  ],
   "main": "dist/index.js",
   "private": false,
   "license": "MIT",

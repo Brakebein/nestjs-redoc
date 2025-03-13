@@ -161,6 +161,8 @@ Bellow are a list of changes, some might go undocumented
 - 2.2.0 - Added version property, this way you can pin redoc to a specific version
 - 2.2.2 - Updated to support Nest 8
 - 2.3.0 - Updated to support Nest 9, removed padding from logo image
+- 2.4.0 - Updated to support Nest 10
+- 2.5.0 - Updated to support Nest 11
 
 ## 📋 ToDo
 
