@@ -4,7 +4,7 @@ import { OpenAPIObject } from '@nestjs/swagger';
 import { Request, Response } from 'express';
 import expressAuth from 'express-basic-auth';
 import { create as createHandlebars } from 'express-handlebars';
-import pathModule from 'path';
+import { join } from 'path';
 import { resolve } from 'url';
 import { LogoOptions, RedocDocument, RedocOptions } from './interfaces';
 import { schema } from './model';
@@ -115,12 +115,7 @@ export class RedocModule {
       },
     };
     // this is our handlebars file path
-    const redocFilePath = pathModule.join(
-      __dirname,
-      '..',
-      'views',
-      'redoc.handlebars'
-    );
+    const redocFilePath = join(__dirname, '..', 'views', 'redoc.handlebars');
     // get handlebars rendered HTML
     const redocHTML = await hbs.render(redocFilePath, renderData);
     // Serve ReDoc Frontend

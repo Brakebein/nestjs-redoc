@@ -53,10 +53,14 @@ export class CatsController {
   }
 
   @Get()
-  findAll(@Query() paginationQuery: PaginationQuery) {}
+  findAll(@Query() paginationQuery: PaginationQuery) {
+    // noop
+  }
 
   @Get('bulk')
-  findAllBulk(@Query() paginationQuery: PaginationQuery[]) {}
+  findAllBulk(@Query() paginationQuery: PaginationQuery[]) {
+    // noop
+  }
 
   @Post('bulk')
   async createBulk(@Body() createCatDto: CreateCatDto[]): Promise<Cat> {
@@ -76,6 +80,8 @@ export class CatsController {
     return this.catsService.create(createCatDto);
   }
 
-  @Get('site*')
-  getSite() {}
+  @Get('site*splat')
+  getSite() {
+    // noop
+  }
 }
